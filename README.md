@@ -81,23 +81,31 @@ resumes:
 
 Companies can be added in three ways:
 
-1. **In config.yaml** (with known API):
+1. **From `company_apis.yaml`** (recommended - 473 pre-configured companies):
+```yaml
+# Copy companies from company_apis.yaml to your config.yaml
+companies:
+  # Paste from company_apis.yaml
+  Nvidia:
+    name: "Nvidia"
+    api_url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+    type: "workday"
+```
+
+2. **Manually in config.yaml** (with known API):
 ```yaml
 companies:
   MyCompany:
     name: "My Company"
-    api_url: "https://mycompany.wd5.myworkdayjobs.com/wday/cxs/mycompany/careers/jobs"
+    api_url: "https://mycompany.wd5.myworkdayjobs.com/careers"
     type: "workday"
 ```
 
-2. **Via Excel file** (auto-discovery):
+3. **Via Excel file** (auto-discovery):
 Add company names to an Excel file and reference it:
 ```yaml
 company_list_file: "companies.xlsx"
 ```
-
-3. **Via API mapping file**:
-Create an Excel with columns: `Company Name`, `ATS Type`, `API URL`
 
 ## Supported ATS Platforms
 
@@ -130,6 +138,7 @@ job_seeking/
 ├── run_job_search.py      # Main entry point
 ├── config.yaml            # Your configuration (git-ignored)
 ├── config.example.yaml    # Template configuration
+├── company_apis.yaml      # 473 pre-configured company APIs
 ├── requirements.txt       # Python dependencies
 ├── src/
 │   ├── scrapers.py        # Job scraping logic for various ATS
