@@ -1,6 +1,8 @@
 # Job Seeking Tool
 
-An automated job search tool that scrapes intern/co-op positions from major tech companies, matches them against your resumes using ML-based similarity scoring, and generates organized Excel reports.
+An automated job search tool that scrapes positions from major tech companies, matches them against your resumes using ML-based similarity scoring, and generates organized Excel reports.
+
+**Fully configurable** - search for any job type (intern, senior, full-time, etc.) and specialty (AI, ML, Data Science, Software Engineering, etc.) by editing `config.yaml`.
 
 ## Features
 

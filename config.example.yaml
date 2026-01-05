@@ -25,15 +25,21 @@ resumes:
 
 # --- Job Title Keywords ---
 # Job must match at least one of these (case-insensitive)
+# Customize based on your search: intern, senior, staff, principal, etc.
 job_title_keywords:
   - "Intern"
   - "Co-op"
   - "Internship"
-  - "Graduate"
-  - "Entry Level"
+  # For full-time roles, comment above and use:
+  # - "Senior"
+  # - "Staff"
+  # - "Principal"
+  # - "Engineer"
+  # - "Scientist"
 
 # --- Specialty Keywords ---
 # Additional keywords to filter relevant positions
+# Customize based on your field: AI, ML, backend, frontend, etc.
 specialty_keywords:
   - "AI"
   - "Artificial Intelligence"
