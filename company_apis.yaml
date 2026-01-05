@@ -1,0 +1,2388 @@
+# ===========================================
+# Company Career API Collection
+# ===========================================
+# A comprehensive list of 470+ companies with their career page APIs
+# Maintained list of Workday, Greenhouse, Lever, SmartRecruiters endpoints
+#
+# Usage:
+#   1. Copy this file to your project
+#   2. Reference in config.yaml OR copy specific companies to config.yaml
+#
+# The tool will automatically convert Workday URLs to API format:
+#   https://company.wd1.myworkdayjobs.com/Site
+#   -> https://company.wd1.myworkdayjobs.com/wday/cxs/company/Site/jobs
+# ===========================================
+
+companies:
+
+  # === Workday Companies (427) ===
+  ASML:
+    name: "ASML"
+    api_url: "https://asml.wd3.myworkdayjobs.com/ASML"
+    type: "workday"
+
+  Adidas:
+    name: "Adidas"
+    api_url: "https://adidas.wd3.myworkdayjobs.com/adidas_Careers"
+    type: "workday"
+
+  AIG:
+    name: "AIG"
+    api_url: "https://aig.wd1.myworkdayjobs.com/aig"
+    type: "workday"
+
+  Aflac:
+    name: "Aflac"
+    api_url: "https://aflac.wd1.myworkdayjobs.com/Aflac"
+    type: "workday"
+
+  AlignTechnology:
+    name: "Align Technology"
+    api_url: "https://aligntech.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Akamai:
+    name: "Akamai"
+    api_url: "https://akamai.wd1.myworkdayjobs.com/Careers"
+    type: "workday"
+
+  Alnylam:
+    name: "Alnylam"
+    api_url: "https://alnylam.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Allstate:
+    name: "Allstate"
+    api_url: "https://allstate.wd1.myworkdayjobs.com/Allstate"
+    type: "workday"
+
+  AllianceBernstein:
+    name: "AllianceBernstein"
+    api_url: "https://ab.wd1.myworkdayjobs.com/ab_careers"
+    type: "workday"
+
+  Amgen:
+    name: "Amgen"
+    api_url: "https://amgen.wd1.myworkdayjobs.com/Careers"
+    type: "workday"
+
+  AmeripriseFinancial:
+    name: "Ameriprise Financial"
+    api_url: "https://ameriprise.wd5.myworkdayjobs.com/Careers"
+    type: "workday"
+
+  AmericanTower:
+    name: "American Tower"
+    api_url: "https://americantower.wd1.myworkdayjobs.com/Careers"
+    type: "workday"
+
+  AnalogDevices:
+    name: "Analog Devices"
+    api_url: "https://analog.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Ansys:
+    name: "Ansys"
+    api_url: "https://ansys.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  AppliedMaterials:
+    name: "Applied Materials"
+    api_url: "https://amat.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ArcisGolf:
+    name: "Arcis Golf"
+    api_url: "https://arcisgolf.wd1.myworkdayjobs.com/Arcis_Golf_Careers"
+    type: "workday"
+
+  AresManagement:
+    name: "Ares Management"
+    api_url: "https://aresmgmt.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ArrowElectronics:
+    name: "Arrow Electronics"
+    api_url: "https://arrow.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Assurant:
+    name: "Assurant"
+    api_url: "https://assurant.wd1.myworkdayjobs.com/Assurant"
+    type: "workday"
+
+  Autodesk:
+    name: "Autodesk"
+    api_url: "https://autodesk.wd1.myworkdayjobs.com/Ext"
+    type: "workday"
+
+  Autoliv:
+    name: "Autoliv"
+    api_url: "https://autoliv.wd3.myworkdayjobs.com/Autoliv_External_Career_Site"
+    type: "workday"
+
+  BakerHughes:
+    name: "Baker Hughes"
+    api_url: "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes"
+    type: "workday"
+
+  BallCorporation:
+    name: "Ball Corporation"
+    api_url: "https://ball.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  BankofAmerica:
+    name: "Bank of America"
+    api_url: "https://bankofamerica.wd1.myworkdayjobs.com/Bank_of_America"
+    type: "workday"
+
+  Baxter:
+    name: "Baxter"
+    api_url: "https://baxter.wd1.myworkdayjobs.com/Baxter"
+    type: "workday"
+
+  BectonDickinson:
+    name: "Becton Dickinson"
+    api_url: "https://bd.wd1.myworkdayjobs.com/External_Career_Site"
+    type: "workday"
+
+  BentleySystems:
+    name: "Bentley Systems"
+    api_url: "https://bentleysystems.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  BioRad:
+    name: "Bio-Rad"
+    api_url: "https://biorad.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  BlackRock:
+    name: "BlackRock"
+    api_url: "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional"
+    type: "workday"
+
+  Blackstone:
+    name: "Blackstone"
+    api_url: "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Careers"
+    type: "workday"
+
+  BlueOrigin:
+    name: "Blue Origin"
+    api_url: "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin"
+    type: "workday"
+
+  Boeing:
+    name: "Boeing"
+    api_url: "https://boeing.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  BostonScientific:
+    name: "Boston Scientific"
+    api_url: "https://bostonscientific.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  BristolMyersSquibb:
+    name: "Bristol Myers Squibb"
+    api_url: "https://bms.wd1.myworkdayjobs.com/BMS"
+    type: "workday"
+
+  Broadcom:
+    name: "Broadcom"
+    api_url: "https://broadcom.wd1.myworkdayjobs.com/External_Career"
+    type: "workday"
+
+  BrownForman:
+    name: "Brown-Forman"
+    api_url: "https://brownforman.wd1.myworkdayjobs.com/Brown-Forman_Careers"
+    type: "workday"
+
+  BuildersFirstSource:
+    name: "Builders FirstSource"
+    api_url: "https://bldr.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CadenceDesignSystems:
+    name: "Cadence Design Systems"
+    api_url: "https://cadence.wd1.myworkdayjobs.com/External_Careers"
+    type: "workday"
+
+  CaesarsEntertainment:
+    name: "Caesars Entertainment"
+    api_url: "https://caesars.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CapitalOne:
+    name: "Capital One"
+    api_url: "https://capitalone.wd1.myworkdayjobs.com/Capital_One"
+    type: "workday"
+
+  CardinalHealth:
+    name: "Cardinal Health"
+    api_url: "https://cardinalhealth.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CarlisleCompanies:
+    name: "Carlisle Companies"
+    api_url: "https://carlisle.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CarnivalCorporation:
+    name: "Carnival Corporation"
+    api_url: "https://carnival.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CarrierGlobal:
+    name: "Carrier Global"
+    api_url: "https://carrier.wd1.myworkdayjobs.com/Carrier"
+    type: "workday"
+
+  Caterpillar:
+    name: "Caterpillar"
+    api_url: "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers"
+    type: "workday"
+
+  CboeGlobalMarkets:
+    name: "Cboe Global Markets"
+    api_url: "https://cboe.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CBRE:
+    name: "CBRE"
+    api_url: "https://cbre.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CDW:
+    name: "CDW"
+    api_url: "https://cdw.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Celanese:
+    name: "Celanese"
+    api_url: "https://celanese.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CenteneCorporation:
+    name: "Centene Corporation"
+    api_url: "https://centene.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CharlesSchwab:
+    name: "Charles Schwab"
+    api_url: "https://schwab.wd1.myworkdayjobs.com/SchwabCareers"
+    type: "workday"
+
+  ChesapeakeEnergy:
+    name: "Chesapeake Energy"
+    api_url: "https://chk.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Chevron:
+    name: "Chevron"
+    api_url: "https://chevron.wd5.myworkdayjobs.com/jobs"
+    type: "workday"
+
+  ChipotleMexicanGrill:
+    name: "Chipotle Mexican Grill"
+    api_url: "https://chipotle.wd5.myworkdayjobs.com/External"
+    type: "workday"
+
+  Chubb:
+    name: "Chubb"
+    api_url: "https://chubb.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Cigna:
+    name: "Cigna"
+    api_url: "https://cigna.wd5.myworkdayjobs.com/cignajobs"
+    type: "workday"
+
+  Cintas:
+    name: "Cintas"
+    api_url: "https://cintas.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CitigroupCiti:
+    name: "Citigroup (Citi)"
+    api_url: "https://citi.wd5.myworkdayjobs.com/Citi_Careers"
+    type: "workday"
+
+  CitizensFinancial:
+    name: "Citizens Financial"
+    api_url: "https://citizensbank.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CMEGroup:
+    name: "CME Group"
+    api_url: "https://cmegroup.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Cognizant:
+    name: "Cognizant"
+    api_url: "https://cognizant.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Comcast:
+    name: "Comcast"
+    api_url: "https://comcast.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ConagraBrands:
+    name: "Conagra Brands"
+    api_url: "https://conagra.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ConocoPhillips:
+    name: "ConocoPhillips"
+    api_url: "https://conocophillips.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ConsolidatedEdison:
+    name: "Consolidated Edison"
+    api_url: "https://coned.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ConstellationBrands:
+    name: "Constellation Brands"
+    api_url: "https://cbrands.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ConstellationEnergy:
+    name: "Constellation Energy"
+    api_url: "https://constellationenergy.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CooperCompanies:
+    name: "CooperCompanies"
+    api_url: "https://coopercompanies.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Copart:
+    name: "Copart"
+    api_url: "https://copart.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Corning:
+    name: "Corning"
+    api_url: "https://corning.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CortevaAgriscience:
+    name: "Corteva Agriscience"
+    api_url: "https://corteva.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CoStarGroup:
+    name: "CoStar Group"
+    api_url: "https://costar.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Coty:
+    name: "Coty"
+    api_url: "https://coty.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CrowdStrike:
+    name: "CrowdStrike"
+    api_url: "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrike"
+    type: "workday"
+
+  CrownCastle:
+    name: "Crown Castle"
+    api_url: "https://crowncastle.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  CSX:
+    name: "CSX"
+    api_url: "https://csx.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Cummins:
+    name: "Cummins"
+    api_url: "https://cummins.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Danaher:
+    name: "Danaher"
+    api_url: "https://danaher.wd1.myworkdayjobs.com/Danaher"
+    type: "workday"
+
+  DardenRestaurants:
+    name: "Darden Restaurants"
+    api_url: "https://darden.wd1.myworkdayjobs.com/Darden_Restaurants"
+    type: "workday"
+
+  DaVita:
+    name: "DaVita"
+    api_url: "https://davita.wd1.myworkdayjobs.com/DKC"
+    type: "workday"
+
+  DeereAndCompany:
+    name: "Deere & Company"
+    api_url: "https://johndeere.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DellTechnologies:
+    name: "Dell Technologies"
+    api_url: "https://dell.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DeltaAirLines:
+    name: "Delta Air Lines"
+    api_url: "https://delta.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DentsplySirona:
+    name: "Dentsply Sirona"
+    api_url: "https://dentsplysirona.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DevonEnergy:
+    name: "Devon Energy"
+    api_url: "https://devonenergy.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Dexcom:
+    name: "Dexcom"
+    api_url: "https://dexcom.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DiamondbackEnergy:
+    name: "Diamondback Energy"
+    api_url: "https://diamondbackenergy.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DigitalRealty:
+    name: "Digital Realty"
+    api_url: "https://digitalrealty.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DiscoverFinancial:
+    name: "Discover Financial"
+    api_url: "https://discover.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DollarGeneral:
+    name: "Dollar General"
+    api_url: "https://dollargeneral.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DollarTree:
+    name: "Dollar Tree"
+    api_url: "https://dollartree.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DominionEnergy:
+    name: "Dominion Energy"
+    api_url: "https://dominionenergy.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DoverCorporation:
+    name: "Dover Corporation"
+    api_url: "https://dover.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Dow:
+    name: "Dow"
+    api_url: "https://dow.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DRHorton:
+    name: "DR Horton"
+    api_url: "https://drhorton.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DTEEnergy:
+    name: "DTE Energy"
+    api_url: "https://dteenergy.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DukeEnergy:
+    name: "Duke Energy"
+    api_url: "https://dukeenergy.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  DuPont:
+    name: "DuPont"
+    api_url: "https://dupont.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  EastmanChemical:
+    name: "Eastman Chemical"
+    api_url: "https://eastman.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Eaton:
+    name: "Eaton"
+    api_url: "https://eaton.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  eBay:
+    name: "eBay"
+    api_url: "https://ebay.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Ecolab:
+    name: "Ecolab"
+    api_url: "https://ecolab.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  EdisonInternational:
+    name: "Edison International"
+    api_url: "https://edison.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  EdwardsLifesciences:
+    name: "Edwards Lifesciences"
+    api_url: "https://edwards.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ElectronicArtsEA:
+    name: "Electronic Arts (EA)"
+    api_url: "https://ea.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ElevanceHealth:
+    name: "Elevance Health"
+    api_url: "https://elevancehealth.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  EliLilly:
+    name: "Eli Lilly"
+    api_url: "https://lilly.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  EmersonElectric:
+    name: "Emerson Electric"
+    api_url: "https://emerson.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Entergy:
+    name: "Entergy"
+    api_url: "https://entergy.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  EOGResources:
+    name: "EOG Resources"
+    api_url: "https://eogresources.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  EQTCorporation:
+    name: "EQT Corporation"
+    api_url: "https://eqt.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Equifax:
+    name: "Equifax"
+    api_url: "https://equifax.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Equinix:
+    name: "Equinix"
+    api_url: "https://equinix.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  EquityResidential:
+    name: "Equity Residential"
+    api_url: "https://equityresidential.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ErieInsurance:
+    name: "Erie Insurance"
+    api_url: "https://erieinsurance.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  EssexPropertyTrust:
+    name: "Essex Property Trust"
+    api_url: "https://essex.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  EstéeLauder:
+    name: "Estée Lauder"
+    api_url: "https://elc.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Evercore:
+    name: "Evercore"
+    api_url: "https://evercore.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  EverestRe:
+    name: "Everest Re"
+    api_url: "https://everest.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Evergy:
+    name: "Evergy"
+    api_url: "https://evergy.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  EversourceEnergy:
+    name: "Eversource Energy"
+    api_url: "https://eversource.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Exelon:
+    name: "Exelon"
+    api_url: "https://exeloncorp.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ExpediaGroup:
+    name: "Expedia Group"
+    api_url: "https://expedia.wd5.myworkdayjobs.com/search"
+    type: "workday"
+
+  ExtraSpaceStorage:
+    name: "Extra Space Storage"
+    api_url: "https://extraspace.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FactSet:
+    name: "FactSet"
+    api_url: "https://factset.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FairIsaacFICO:
+    name: "Fair Isaac (FICO)"
+    api_url: "https://fico.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FederalRealtyInvestment:
+    name: "Federal Realty Investment"
+    api_url: "https://federalrealty.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FedEx:
+    name: "FedEx"
+    api_url: "https://fedex.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FISFidelityNational:
+    name: "FIS (Fidelity National)"
+    api_url: "https://fisglobal.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FidelityNationalFinancial:
+    name: "Fidelity National Financial"
+    api_url: "https://fnf.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FifthThirdBancorp:
+    name: "Fifth Third Bancorp"
+    api_url: "https://53.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FirstCitizensBancShares:
+    name: "First Citizens BancShares"
+    api_url: "https://firstcitizens.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FirstHorizon:
+    name: "First Horizon"
+    api_url: "https://firsthorizon.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FirstSolar:
+    name: "First Solar"
+    api_url: "https://firstsolar.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Fiserv:
+    name: "Fiserv"
+    api_url: "https://fiserv.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FleetcorCorpay:
+    name: "Fleetcor (Corpay)"
+    api_url: "https://corpay.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FMCCorporation:
+    name: "FMC Corporation"
+    api_url: "https://fmc.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FordMotorCompany:
+    name: "Ford Motor Company"
+    api_url: "https://ford.wd5.myworkdayjobs.com/Ford_Motor_Company_Careers"
+    type: "workday"
+
+  Fortive:
+    name: "Fortive"
+    api_url: "https://fortive.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FortuneBrands:
+    name: "Fortune Brands"
+    api_url: "https://fbi.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FoxCorporation:
+    name: "Fox Corporation"
+    api_url: "https://fox.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FranklinResources:
+    name: "Franklin Resources"
+    api_url: "https://franklinresources.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  FreeportMcMoRan:
+    name: "Freeport-McMoRan"
+    api_url: "https://fmcc.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Garmin:
+    name: "Garmin"
+    api_url: "https://garmin.wd1.myworkdayjobs.com/Garmin_Careers"
+    type: "workday"
+
+  Gartner:
+    name: "Gartner"
+    api_url: "https://gartner.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  GEAerospace:
+    name: "GE Aerospace"
+    api_url: "https://ge.wd5.myworkdayjobs.com/GE_Aerospace_Careers"
+    type: "workday"
+
+  GEHealthcare:
+    name: "GE Healthcare"
+    api_url: "https://gehealthcare.wd5.myworkdayjobs.com/External"
+    type: "workday"
+
+  GenDigital:
+    name: "Gen Digital"
+    api_url: "https://gendigital.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  GeneracHoldings:
+    name: "Generac Holdings"
+    api_url: "https://generac.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  GeneralMills:
+    name: "General Mills"
+    api_url: "https://generalmills.wd5.myworkdayjobs.com/External"
+    type: "workday"
+
+  GeneralMotors:
+    name: "General Motors"
+    api_url: "https://gm.wd5.myworkdayjobs.com/External"
+    type: "workday"
+
+  GenuinePartsCompany:
+    name: "Genuine Parts Company"
+    api_url: "https://gpc.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  GenworthFinancial:
+    name: "Genworth Financial"
+    api_url: "https://genworth.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  GileadSciences:
+    name: "Gilead Sciences"
+    api_url: "https://gilead.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  GlobalPayments:
+    name: "Global Payments"
+    api_url: "https://globalpayments.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  GlobeLife:
+    name: "Globe Life"
+    api_url: "https://globelife.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Grainger:
+    name: "Grainger"
+    api_url: "https://grainger.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Halliburton:
+    name: "Halliburton"
+    api_url: "https://halliburton.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Hasbro:
+    name: "Hasbro"
+    api_url: "https://hasbro.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  HealthpeakProperties:
+    name: "Healthpeak Properties"
+    api_url: "https://healthpeak.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  HenrySchein:
+    name: "Henry Schein"
+    api_url: "https://henryschein.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Hersheys:
+    name: "Hershey's"
+    api_url: "https://hersheys.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  HessCorporation:
+    name: "Hess Corporation"
+    api_url: "https://hess.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  HewlettPackardHPE:
+    name: "Hewlett Packard (HPE)"
+    api_url: "https://hpe.wd5.myworkdayjobs.com/Jobsathpe"
+    type: "workday"
+
+  HPInc:
+    name: "HP Inc."
+    api_url: "https://hp.wd5.myworkdayjobs.com/ExternalCareers"
+    type: "workday"
+
+  Hologic:
+    name: "Hologic"
+    api_url: "https://hologic.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  HomeDepot:
+    name: "Home Depot"
+    api_url: "https://homedepot.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Honeywell:
+    name: "Honeywell"
+    api_url: "https://honeywell.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  HormelFoods:
+    name: "Hormel Foods"
+    api_url: "https://hormel.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  HostHotelsAndResorts:
+    name: "Host Hotels & Resorts"
+    api_url: "https://hosthotels.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  HowmetAerospace:
+    name: "Howmet Aerospace"
+    api_url: "https://howmet.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Hubbell:
+    name: "Hubbell"
+    api_url: "https://hubbell.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Humana:
+    name: "Humana"
+    api_url: "https://humana.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  HuntingtonBancshares:
+    name: "Huntington Bancshares"
+    api_url: "https://huntington.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Huntsman:
+    name: "Huntsman"
+    api_url: "https://huntsman.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Hyatt:
+    name: "Hyatt"
+    api_url: "https://hyatt.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  IDEXCorporation:
+    name: "IDEX Corporation"
+    api_url: "https://idex.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  IDEXXLaboratories:
+    name: "IDEXX Laboratories"
+    api_url: "https://idexx.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  IllinoisToolWorks:
+    name: "Illinois Tool Works"
+    api_url: "https://itw.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Illumina:
+    name: "Illumina"
+    api_url: "https://illumina.wd1.myworkdayjobs.com/IlluminaCareers"
+    type: "workday"
+
+  Incyte:
+    name: "Incyte"
+    api_url: "https://incyte.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  IngersollRand:
+    name: "Ingersoll Rand"
+    api_url: "https://irco.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Insulet:
+    name: "Insulet"
+    api_url: "https://insulet.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  IntercontinentalExch:
+    name: "Intercontinental Exch"
+    api_url: "https://ice.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  IntlFlavorsAndFrag:
+    name: "Intl Flavors & Frag"
+    api_url: "https://iff.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  InternationalPaper:
+    name: "International Paper"
+    api_url: "https://ipaper.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  InterpublicGroup:
+    name: "Interpublic Group"
+    api_url: "https://ipg.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Intuit:
+    name: "Intuit"
+    api_url: "https://intuit.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  IntuitiveSurgical:
+    name: "Intuitive Surgical"
+    api_url: "https://intuitive.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Invesco:
+    name: "Invesco"
+    api_url: "https://invesco.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  InvitationHomes:
+    name: "Invitation Homes"
+    api_url: "https://invitationhomes.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  IronMountain:
+    name: "Iron Mountain"
+    api_url: "https://ironmountain.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  JBHunt:
+    name: "J.B. Hunt"
+    api_url: "https://jbhunt.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Jabil:
+    name: "Jabil"
+    api_url: "https://jabil.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  JackHenry:
+    name: "Jack Henry"
+    api_url: "https://jackhenry.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  JacobsSolutions:
+    name: "Jacobs Solutions"
+    api_url: "https://jacobs.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  JanusHenderson:
+    name: "Janus Henderson"
+    api_url: "https://janushenderson.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  JazzPharmaceuticals:
+    name: "Jazz Pharmaceuticals"
+    api_url: "https://jazzpharma.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  JDSUniphaseViavi:
+    name: "JDS Uniphase (Viavi)"
+    api_url: "https://viavi.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  JefferiesFinancial:
+    name: "Jefferies Financial"
+    api_url: "https://jefferies.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  JMSmucker:
+    name: "JM Smucker"
+    api_url: "https://jmsmucker.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  JohnsonAndJohnson:
+    name: "Johnson & Johnson"
+    api_url: "https://jnj.wd5.myworkdayjobs.com/External"
+    type: "workday"
+
+  JohnsonControls:
+    name: "Johnson Controls"
+    api_url: "https://johnsoncontrols.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  JonesLangLaSalle:
+    name: "Jones Lang LaSalle"
+    api_url: "https://jll.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  JuniperNetworks:
+    name: "Juniper Networks"
+    api_url: "https://juniper.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  KLACorporation:
+    name: "KLA Corporation"
+    api_url: "https://kla.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Kellanova:
+    name: "Kellanova"
+    api_url: "https://kellanova.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  KeurigDrPepper:
+    name: "Keurig Dr Pepper"
+    api_url: "https://kdp.wd5.myworkdayjobs.com/External"
+    type: "workday"
+
+  KeyCorp:
+    name: "KeyCorp"
+    api_url: "https://keybank.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  KeysightTechnologies:
+    name: "Keysight Technologies"
+    api_url: "https://keysight.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  KimberlyClark:
+    name: "Kimberly-Clark"
+    api_url: "https://kimberlyclark.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  KinderMorgan:
+    name: "Kinder Morgan"
+    api_url: "https://kindermorgan.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Kohls:
+    name: "Kohl's"
+    api_url: "https://kohls.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  KraftHeinz:
+    name: "Kraft Heinz"
+    api_url: "https://kraftheinz.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  L3HarrisTechnologies:
+    name: "L3Harris Technologies"
+    api_url: "https://l3harris.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Labcorp:
+    name: "Labcorp"
+    api_url: "https://labcorp.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  LamResearch:
+    name: "Lam Research"
+    api_url: "https://lamresearch.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  LambWeston:
+    name: "Lamb Weston"
+    api_url: "https://lambweston.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  LasVegasSands:
+    name: "Las Vegas Sands"
+    api_url: "https://sands.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Leidos:
+    name: "Leidos"
+    api_url: "https://leidos.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Lennar:
+    name: "Lennar"
+    api_url: "https://lennar.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  LillyEliLilly:
+    name: "Lilly (Eli Lilly)"
+    api_url: "https://lilly.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  LincolnElectric:
+    name: "Lincoln Electric"
+    api_url: "https://lincolnelectric.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Linde:
+    name: "Linde"
+    api_url: "https://linde.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  LiveNation:
+    name: "Live Nation"
+    api_url: "https://livenation.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  LockheedMartin:
+    name: "Lockheed Martin"
+    api_url: "https://lockheedmartin.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  LoewsCorporation:
+    name: "Loews Corporation"
+    api_url: "https://loews.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Lowes:
+    name: "Lowe's"
+    api_url: "https://lowes.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  LululemonAthletica:
+    name: "Lululemon Athletica"
+    api_url: "https://lululemon.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  LyondellBasell:
+    name: "LyondellBasell"
+    api_url: "https://lyondellbasell.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MAndTBank:
+    name: "M&T Bank"
+    api_url: "https://mtb.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MarathonOil:
+    name: "Marathon Oil"
+    api_url: "https://marathonoil.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MarathonPetroleum:
+    name: "Marathon Petroleum"
+    api_url: "https://marathonpetroleum.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MarketAxess:
+    name: "MarketAxess"
+    api_url: "https://marketaxess.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MarriottInternational:
+    name: "Marriott International"
+    api_url: "https://marriott.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MarshAndMcLennan:
+    name: "Marsh & McLennan"
+    api_url: "https://mmc.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MartinMarietta:
+    name: "Martin Marietta"
+    api_url: "https://martinmarietta.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Masco:
+    name: "Masco"
+    api_url: "https://masco.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Mastercard:
+    name: "Mastercard"
+    api_url: "https://mastercard.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  McCormickAndCompany:
+    name: "McCormick & Company"
+    api_url: "https://mccormick.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  McKesson:
+    name: "McKesson"
+    api_url: "https://mckesson.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Medtronic:
+    name: "Medtronic"
+    api_url: "https://medtronic.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MerckAndCo:
+    name: "Merck & Co."
+    api_url: "https://merck.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MetLife:
+    name: "MetLife"
+    api_url: "https://metlife.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MettlerToledo:
+    name: "Mettler Toledo"
+    api_url: "https://mt.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MGMResorts:
+    name: "MGM Resorts"
+    api_url: "https://mgmresorts.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MicrochipTechnology:
+    name: "Microchip Technology"
+    api_url: "https://microchip.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MicronTechnology:
+    name: "Micron Technology"
+    api_url: "https://micron.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MolsonCoors:
+    name: "Molson Coors"
+    api_url: "https://molsoncoors.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MondelezInternational:
+    name: "Mondelez International"
+    api_url: "https://mondelez.wd3.myworkdayjobs.com/External"
+    type: "workday"
+
+  MonolithicPower:
+    name: "Monolithic Power"
+    api_url: "https://mps.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Moodys:
+    name: "Moody's"
+    api_url: "https://moodys.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MosaicCompany:
+    name: "Mosaic Company"
+    api_url: "https://mosaic.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MotorolaSolutions:
+    name: "Motorola Solutions"
+    api_url: "https://motorolasolutions.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  MSCI:
+    name: "MSCI"
+    api_url: "https://msci.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Nasdaq:
+    name: "Nasdaq"
+    api_url: "https://nasdaq.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  NetApp:
+    name: "NetApp"
+    api_url: "https://netapp.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Newmont:
+    name: "Newmont"
+    api_url: "https://newmont.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  NewsCorp:
+    name: "News Corp"
+    api_url: "https://newscorp.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Nike:
+    name: "Nike"
+    api_url: "https://nike.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Nordson:
+    name: "Nordson"
+    api_url: "https://nordson.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  NorthernTrust:
+    name: "Northern Trust"
+    api_url: "https://northerntrust.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  NorthropGrumman:
+    name: "Northrop Grumman"
+    api_url: "https://northropgrumman.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  NVIDIA:
+    name: "NVIDIA"
+    api_url: "https://nvidia.wd5.myworkdayjobs.com/External"
+    type: "workday"
+
+  NVRInc:
+    name: "NVR, Inc."
+    api_url: "https://nvr.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  NXPSemiconductors:
+    name: "NXP Semiconductors"
+    api_url: "https://nxp.wd3.myworkdayjobs.com/External"
+    type: "workday"
+
+  OccidentalPetroleum:
+    name: "Occidental Petroleum"
+    api_url: "https://oxy.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  OldDominionFreight:
+    name: "Old Dominion Freight"
+    api_url: "https://odfl.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  OmnicomGroup:
+    name: "Omnicom Group"
+    api_url: "https://omnicom.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ONSemiconductor:
+    name: "ON Semiconductor"
+    api_url: "https://onsemi.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ONEOK:
+    name: "ONEOK"
+    api_url: "https://oneok.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  OReillyAutoParts:
+    name: "O'Reilly Auto Parts"
+    api_url: "https://oreilly.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  OtisWorldwide:
+    name: "Otis Worldwide"
+    api_url: "https://otis.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  PackagingCorpofAm:
+    name: "Packaging Corp of Am"
+    api_url: "https://pca.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ParkerHannifin:
+    name: "Parker-Hannifin"
+    api_url: "https://parker.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Paychex:
+    name: "Paychex"
+    api_url: "https://paychex.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  PayPal:
+    name: "PayPal"
+    api_url: "https://paypal.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Pentair:
+    name: "Pentair"
+    api_url: "https://pentair.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Pfizer:
+    name: "Pfizer"
+    api_url: "https://pfizer.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  PhilipMorrisIntl:
+    name: "Philip Morris Intl"
+    api_url: "https://pmi.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Phillips66:
+    name: "Phillips 66"
+    api_url: "https://phillips66.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  PinnacleWestCapital:
+    name: "Pinnacle West Capital"
+    api_url: "https://pinnaclewest.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  PioneerNaturalRes:
+    name: "Pioneer Natural Res"
+    api_url: "https://pioneer.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  PNCFinancialServices:
+    name: "PNC Financial Services"
+    api_url: "https://pnc.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  PPGIndustries:
+    name: "PPG Industries"
+    api_url: "https://ppg.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  PPLCorporation:
+    name: "PPL Corporation"
+    api_url: "https://ppl.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  PrincipalFinancial:
+    name: "Principal Financial"
+    api_url: "https://principal.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ProcterAndGamblePAndG:
+    name: "Procter & Gamble (P&G)"
+    api_url: "https://pg.wd5.myworkdayjobs.com/External"
+    type: "workday"
+
+  ProgressiveCorp:
+    name: "Progressive Corp"
+    api_url: "https://progressive.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Prologis:
+    name: "Prologis"
+    api_url: "https://prologis.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  PrudentialFinancial:
+    name: "Prudential Financial"
+    api_url: "https://prudential.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  PublicServiceEnt:
+    name: "Public Service Ent."
+    api_url: "https://pseg.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  PublicStorage:
+    name: "Public Storage"
+    api_url: "https://publicstorage.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  PulteGroup:
+    name: "PulteGroup"
+    api_url: "https://pulte.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Qorvo:
+    name: "Qorvo"
+    api_url: "https://qorvo.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Qualcomm:
+    name: "Qualcomm"
+    api_url: "https://qualcomm.wd5.myworkdayjobs.com/External"
+    type: "workday"
+
+  QuantaServices:
+    name: "Quanta Services"
+    api_url: "https://quanta.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  QuestDiagnostics:
+    name: "Quest Diagnostics"
+    api_url: "https://quest.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  RalphLauren:
+    name: "Ralph Lauren"
+    api_url: "https://ralphlauren.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  RaymondJames:
+    name: "Raymond James"
+    api_url: "https://raymondjames.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  RTXRaytheon:
+    name: "RTX (Raytheon)"
+    api_url: "https://rtx.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  RealtyIncome:
+    name: "Realty Income"
+    api_url: "https://realtyincome.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  RegencyCenters:
+    name: "Regency Centers"
+    api_url: "https://regencycenters.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  RegeneronPharma:
+    name: "Regeneron Pharma"
+    api_url: "https://regeneron.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  RegionsFinancial:
+    name: "Regions Financial"
+    api_url: "https://regions.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  RepublicServices:
+    name: "Republic Services"
+    api_url: "https://republicservices.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ResMed:
+    name: "ResMed"
+    api_url: "https://resmed.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Revvity:
+    name: "Revvity"
+    api_url: "https://revvity.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  RockwellAutomation:
+    name: "Rockwell Automation"
+    api_url: "https://rockwellautomation.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  RollinsInc:
+    name: "Rollins, Inc."
+    api_url: "https://rollins.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  RossStores:
+    name: "Ross Stores"
+    api_url: "https://ross.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  RoyalCaribbean:
+    name: "Royal Caribbean"
+    api_url: "https://royalcaribbean.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  SAndPGlobal:
+    name: "S&P Global"
+    api_url: "https://spglobal.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Salesforce:
+    name: "Salesforce"
+    api_url: "https://salesforce.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  SBACommunications:
+    name: "SBA Communications"
+    api_url: "https://sba.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  SeagateTechnology:
+    name: "Seagate Technology"
+    api_url: "https://seagate.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  SealedAir:
+    name: "Sealed Air"
+    api_url: "https://sealedair.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  SempraEnergy:
+    name: "Sempra Energy"
+    api_url: "https://sempra.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ServiceNow:
+    name: "ServiceNow"
+    api_url: "https://servicenow.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  SherwinWilliams:
+    name: "Sherwin-Williams"
+    api_url: "https://sherwin.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  SimonPropertyGroup:
+    name: "Simon Property Group"
+    api_url: "https://simon.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  SkyworksSolutions:
+    name: "Skyworks Solutions"
+    api_url: "https://skyworks.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  SouthernCompany:
+    name: "Southern Company"
+    api_url: "https://southerncompany.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  SouthwestAirlines:
+    name: "Southwest Airlines"
+    api_url: "https://southwest.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  StanleyBlackAndDecker:
+    name: "Stanley Black & Decker"
+    api_url: "https://stanleyblackanddecker.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  StateStreet:
+    name: "State Street"
+    api_url: "https://statestreet.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  SteelDynamics:
+    name: "Steel Dynamics"
+    api_url: "https://steeldynamics.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Steris:
+    name: "Steris"
+    api_url: "https://steris.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  StrykerCorporation:
+    name: "Stryker Corporation"
+    api_url: "https://stryker.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Sunrun:
+    name: "Sunrun"
+    api_url: "https://sunrun.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  SVBFinancialGroup:
+    name: "SVB Financial Group"
+    api_url: "https://svb.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  SynchronyFinancial:
+    name: "Synchrony Financial"
+    api_url: "https://synchrony.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Synopsys:
+    name: "Synopsys"
+    api_url: "https://synopsys.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Sysco:
+    name: "Sysco"
+    api_url: "https://sysco.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TRowePrice:
+    name: "T. Rowe Price"
+    api_url: "https://troweprice.wd5.myworkdayjobs.com/External"
+    type: "workday"
+
+  TapestryInc:
+    name: "Tapestry, Inc."
+    api_url: "https://tapestry.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TargetCorporation:
+    name: "Target Corporation"
+    api_url: "https://target.wd5.myworkdayjobs.com/targetcareers"
+    type: "workday"
+
+  TEConnectivity:
+    name: "TE Connectivity"
+    api_url: "https://te.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TeledyneTechnologies:
+    name: "Teledyne Technologies"
+    api_url: "https://teledyne.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Teleflex:
+    name: "Teleflex"
+    api_url: "https://teleflex.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Teradyne:
+    name: "Teradyne"
+    api_url: "https://teradyne.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Textron:
+    name: "Textron"
+    api_url: "https://textron.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TheBankofNYMellon:
+    name: "The Bank of NY Mellon"
+    api_url: "https://bnymellon.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TheCooperCompanies:
+    name: "The Cooper Companies"
+    api_url: "https://coopercompanies.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TheHartford:
+    name: "The Hartford"
+    api_url: "https://thehartford.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TheHersheyCompany:
+    name: "The Hershey Company"
+    api_url: "https://hersheys.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TheKraftHeinzCo:
+    name: "The Kraft Heinz Co"
+    api_url: "https://kraftheinz.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TheMosaicCompany:
+    name: "The Mosaic Company"
+    api_url: "https://mosaic.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TheSouthernCompany:
+    name: "The Southern Company"
+    api_url: "https://southerncompany.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TheTravelersCos:
+    name: "The Travelers Cos"
+    api_url: "https://travelers.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ThermoFisherScientific:
+    name: "Thermo Fisher Scientific"
+    api_url: "https://thermofisher.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TMobileUS:
+    name: "T-Mobile US"
+    api_url: "https://tmobile.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ToledoMettler:
+    name: "Toledo (Mettler)"
+    api_url: "https://mt.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TractorSupplyCo:
+    name: "Tractor Supply Co"
+    api_url: "https://tractorsupply.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TraneTechnologies:
+    name: "Trane Technologies"
+    api_url: "https://trane.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TrimbleInc:
+    name: "Trimble Inc."
+    api_url: "https://trimble.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TruistFinancial:
+    name: "Truist Financial"
+    api_url: "https://truist.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TylerTechnologies:
+    name: "Tyler Technologies"
+    api_url: "https://tylertech.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  TysonFoods:
+    name: "Tyson Foods"
+    api_url: "https://tysonfoods.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  USBancorp:
+    name: "U.S. Bancorp"
+    api_url: "https://usbank.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  UDRInc:
+    name: "UDR, Inc."
+    api_url: "https://udr.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  UltaBeauty:
+    name: "Ulta Beauty"
+    api_url: "https://ulta.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  UnitedParcelService:
+    name: "United Parcel Service"
+    api_url: "https://ups.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  UnitedRentals:
+    name: "United Rentals"
+    api_url: "https://unitedrentals.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  UnumGroup:
+    name: "Unum Group"
+    api_url: "https://unum.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ValeroEnergy:
+    name: "Valero Energy"
+    api_url: "https://valero.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Ventas:
+    name: "Ventas"
+    api_url: "https://ventas.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  VeriSign:
+    name: "VeriSign"
+    api_url: "https://verisign.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  VeriskAnalytics:
+    name: "Verisk Analytics"
+    api_url: "https://verisk.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  VertexPharma:
+    name: "Vertex Pharma"
+    api_url: "https://vrtx.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  VFCorporation:
+    name: "VF Corporation"
+    api_url: "https://vfc.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Viatris:
+    name: "Viatris"
+    api_url: "https://viatris.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  VICIProperties:
+    name: "VICI Properties"
+    api_url: "https://vici.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  VoyaFinancial:
+    name: "Voya Financial"
+    api_url: "https://voya.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  VulcanMaterials:
+    name: "Vulcan Materials"
+    api_url: "https://vulcanmaterials.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WRBerkley:
+    name: "W. R. Berkley"
+    api_url: "https://wrberkley.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Wabtec:
+    name: "Wabtec"
+    api_url: "https://wabtec.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WalgreensBoots:
+    name: "Walgreens Boots"
+    api_url: "https://walgreens.wd5.myworkdayjobs.com/External"
+    type: "workday"
+
+  WarnerBrosDiscovery:
+    name: "Warner Bros. Discovery"
+    api_url: "https://wbd.wd5.myworkdayjobs.com/External"
+    type: "workday"
+
+  WasteManagement:
+    name: "Waste Management"
+    api_url: "https://wm.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WatersCorporation:
+    name: "Waters Corporation"
+    api_url: "https://waters.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Watsco:
+    name: "Watsco"
+    api_url: "https://watsco.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WellsFargo:
+    name: "Wells Fargo"
+    api_url: "https://wellsfargo.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Welltower:
+    name: "Welltower"
+    api_url: "https://welltower.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WestPharma:
+    name: "West Pharma"
+    api_url: "https://westpharma.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WestRock:
+    name: "WestRock"
+    api_url: "https://westrock.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Westinghouse:
+    name: "Westinghouse"
+    api_url: "https://westinghouse.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Weyerhaeuser:
+    name: "Weyerhaeuser"
+    api_url: "https://weyerhaeuser.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Whirlpool:
+    name: "Whirlpool"
+    api_url: "https://whirlpool.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WilliamsCompanies:
+    name: "Williams Companies"
+    api_url: "https://williams.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WillisTowersWatson:
+    name: "Willis Towers Watson"
+    api_url: "https://wtw.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Workday:
+    name: "Workday"
+    api_url: "https://workday.wd5.myworkdayjobs.com/Workday"
+    type: "workday"
+
+  WyndhamHotels:
+    name: "Wyndham Hotels"
+    api_url: "https://wyndham.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WynnResorts:
+    name: "Wynn Resorts"
+    api_url: "https://wynnresorts.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Xerox:
+    name: "Xerox"
+    api_url: "https://xerox.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Xylem:
+    name: "Xylem"
+    api_url: "https://xylem.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Yum!Brands:
+    name: "Yum! Brands"
+    api_url: "https://yum.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ZebraTechnologies:
+    name: "Zebra Technologies"
+    api_url: "https://zebra.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ZimmerBiomet:
+    name: "Zimmer Biomet"
+    api_url: "https://zimmerbiomet.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ZionsBancorp:
+    name: "Zions Bancorp"
+    api_url: "https://zionsbancorp.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Zoetis:
+    name: "Zoetis"
+    api_url: "https://zoetis.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ZSAssociates:
+    name: "ZS Associates"
+    api_url: "https://zs.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  USSteel:
+    name: "U.S. Steel"
+    api_url: "https://ussteel.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  USFoods:
+    name: "US Foods"
+    api_url: "https://usfoods.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  UnderArmour:
+    name: "Under Armour"
+    api_url: "https://underarmour.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Unilever:
+    name: "Unilever"
+    api_url: "https://unilever.wd3.myworkdayjobs.com/Unilever_External_Careers"
+    type: "workday"
+
+  UnitedTherapeutics:
+    name: "United Therapeutics"
+    api_url: "https://unither.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  UniversalDisplay:
+    name: "Universal Display"
+    api_url: "https://udel.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  VailResorts:
+    name: "Vail Resorts"
+    api_url: "https://vailresorts.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Vanguard:
+    name: "Vanguard"
+    api_url: "https://vanguard.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  VertexPharmaceuticals:
+    name: "Vertex Pharmaceuticals"
+    api_url: "https://vrtx.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  VICIProperties:
+    name: "VICI Properties"
+    api_url: "https://vici.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  VoyaFinancial:
+    name: "Voya Financial"
+    api_url: "https://voya.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  VulcanMaterials:
+    name: "Vulcan Materials"
+    api_url: "https://vulcanmaterials.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WRBerkley:
+    name: "W.R. Berkley"
+    api_url: "https://wrberkley.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WalgreensBootsAlliance:
+    name: "Walgreens Boots Alliance"
+    api_url: "https://walgreens.wd5.myworkdayjobs.com/External"
+    type: "workday"
+
+  WatersCorporation:
+    name: "Waters Corporation"
+    api_url: "https://waters.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Welltower:
+    name: "Welltower"
+    api_url: "https://welltower.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WestPharmaceutical:
+    name: "West Pharmaceutical"
+    api_url: "https://westpharma.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WestRock:
+    name: "WestRock"
+    api_url: "https://westrock.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Westinghouse:
+    name: "Westinghouse"
+    api_url: "https://westinghouse.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WilliamsCompanies:
+    name: "Williams Companies"
+    api_url: "https://williams.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  WyndhamHotels:
+    name: "Wyndham Hotels"
+    api_url: "https://wyndham.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ZionsBancorp:
+    name: "Zions Bancorp"
+    api_url: "https://zionsbancorp.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  Zoetis:
+    name: "Zoetis"
+    api_url: "https://zoetis.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+  ZurichInsurance:
+    name: "Zurich Insurance"
+    api_url: "https://zurich.wd3.myworkdayjobs.com/Zurich_External_Career_Site"
+    type: "workday"
+
+  iRobot:
+    name: "iRobot"
+    api_url: "https://irobot.wd1.myworkdayjobs.com/External"
+    type: "workday"
+
+
+  # === Greenhouse Companies (37) ===
+  Absci:
+    name: "Absci"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/absci/jobs"
+    type: "greenhouse"
+
+  Airbnb:
+    name: "Airbnb"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs"
+    type: "greenhouse"
+
+  AppFolio:
+    name: "AppFolio"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/appfolio/jobs"
+    type: "greenhouse"
+
+  AristaNetworks:
+    name: "Arista Networks"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/aristanetworks/jobs"
+    type: "greenhouse"
+
+  AvidXchange:
+    name: "AvidXchange"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/avidxchange/jobs"
+    type: "greenhouse"
+
+  BeamTherapeutics:
+    name: "Beam Therapeutics"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/beamtx/jobs"
+    type: "greenhouse"
+
+  Billcom:
+    name: "Bill.com"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/billcom/jobs"
+    type: "greenhouse"
+
+  BlockSquare:
+    name: "Block (Square)"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/square/jobs"
+    type: "greenhouse"
+
+  Bookingcom:
+    name: "Booking.com"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/bookingcom/jobs"
+    type: "greenhouse"
+
+  Cloudflare:
+    name: "Cloudflare"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs"
+    type: "greenhouse"
+
+  Coinbase:
+    name: "Coinbase"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs"
+    type: "greenhouse"
+
+  Dropbox:
+    name: "Dropbox"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/dropbox/jobs"
+    type: "greenhouse"
+
+  Dynatrace:
+    name: "Dynatrace"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/dynatrace/jobs"
+    type: "greenhouse"
+
+  Etsy:
+    name: "Etsy"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/etsy/jobs"
+    type: "greenhouse"
+
+  F5:
+    name: "F5"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/f5/jobs"
+    type: "greenhouse"
+
+  Fortinet:
+    name: "Fortinet"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/fortinet/jobs"
+    type: "greenhouse"
+
+  Grubhub:
+    name: "Grubhub"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/grubhub/jobs"
+    type: "greenhouse"
+
+  GuidewireSoftware:
+    name: "Guidewire Software"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/guidewire/jobs"
+    type: "greenhouse"
+
+  HubSpot:
+    name: "HubSpot"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/hubspot/jobs"
+    type: "greenhouse"
+
+  MatchGroup:
+    name: "Match Group"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/matchgroup/jobs"
+    type: "greenhouse"
+
+  Nutanix:
+    name: "Nutanix"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/nutanix/jobs"
+    type: "greenhouse"
+
+  PaloAltoNetworks:
+    name: "Palo Alto Networks"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/paloaltonetworks/jobs"
+    type: "greenhouse"
+
+  Pinterest:
+    name: "Pinterest"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs"
+    type: "greenhouse"
+
+  SnapInc:
+    name: "Snap Inc."
+    api_url: "https://boards-api.greenhouse.io/v1/boards/snapchat/jobs"
+    type: "greenhouse"
+
+  TakeTwoInteractive:
+    name: "Take-Two Interactive"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/taketwo/jobs"
+    type: "greenhouse"
+
+  Twilio:
+    name: "Twilio"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/twilio/jobs"
+    type: "greenhouse"
+
+  UnityTechnologies:
+    name: "Unity Technologies"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/unity3d/jobs"
+    type: "greenhouse"
+
+  Vizai:
+    name: "Viz.ai"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/vizai/jobs"
+    type: "greenhouse"
+
+  Whoop:
+    name: "Whoop"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/whoop/jobs"
+    type: "greenhouse"
+
+  Yahoo:
+    name: "Yahoo"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/yahoo/jobs"
+    type: "greenhouse"
+
+  Zendesk:
+    name: "Zendesk"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/zendesk/jobs"
+    type: "greenhouse"
+
+  ZillowGroup:
+    name: "Zillow Group"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/zillowgroup/jobs"
+    type: "greenhouse"
+
+  ZoomVideo:
+    name: "Zoom Video"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/zoom/jobs"
+    type: "greenhouse"
+
+  Zscaler:
+    name: "Zscaler"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/zscaler/jobs"
+    type: "greenhouse"
+
+  Zuora:
+    name: "Zuora"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/zuora/jobs"
+    type: "greenhouse"
+
+  Zynga:
+    name: "Zynga"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/zynga/jobs"
+    type: "greenhouse"
+
+  UiPath:
+    name: "UiPath"
+    api_url: "https://boards-api.greenhouse.io/v1/boards/uipath/jobs"
+    type: "greenhouse"
+
+
+  # === Lever Companies (3) ===
+  Asana:
+    name: "Asana"
+    api_url: "https://api.lever.co/v0/postings/asana"
+    type: "lever"
+
+  Atlassian:
+    name: "Atlassian"
+    api_url: "https://api.lever.co/v0/postings/atlassian"
+    type: "lever"
+
+  CheckPointSoftware:
+    name: "Check Point Software"
+    api_url: "https://api.lever.co/v0/postings/checkpoint"
+    type: "lever"
+
+
+  # === SmartRecruiters Companies (6) ===
+  Biogen:
+    name: "Biogen"
+    api_url: "https://api.smartrecruiters.com/v1/companies/biogen/postings"
+    type: "smartrecruiters"
+
+  DominosPizza:
+    name: "Domino's Pizza"
+    api_url: "https://api.smartrecruiters.com/v1/companies/dominos/postings"
+    type: "smartrecruiters"
+
+  ExpeditorsInternational:
+    name: "Expeditors International"
+    api_url: "https://api.smartrecruiters.com/v1/companies/expeditors/postings"
+    type: "smartrecruiters"
+
+  VisaInc:
+    name: "Visa Inc."
+    api_url: "https://api.smartrecruiters.com/v1/companies/visa/postings"
+    type: "smartrecruiters"
+
+  WesternDigital:
+    name: "Western Digital"
+    api_url: "https://api.smartrecruiters.com/v1/companies/westerndigital/postings"
+    type: "smartrecruiters"
+
+  Visa:
+    name: "Visa"
+    api_url: "https://api.smartrecruiters.com/v1/companies/visa/postings"
+    type: "smartrecruiters"
