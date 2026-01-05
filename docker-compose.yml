@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  job-search:
+    build: .
+    volumes:
+      # Mount resumes and config for access
+      - ./1_HanYang_Resume_DS_MLE.docx:/app/1_HanYang_Resume_DS_MLE.docx:ro
+      - ./2_HanYang_Resume_Operational_DS.docx:/app/2_HanYang_Resume_Operational_DS.docx:ro
+      - ./已投岗位-2026summer.xlsx:/app/已投岗位-2026summer.xlsx:ro
+      - ./config.yaml:/app/config.yaml:ro
+      # Mount output directory for results
+      - ./output:/app/output
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python run_job_search.py

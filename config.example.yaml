@@ -1,0 +1,226 @@
+# ===========================================
+# Job Seeking Tool Configuration
+# ===========================================
+# Copy this file to config.yaml and customize for your needs
+
+# Number of days to look back for job postings
+days_lookback: 30
+
+# --- Input Files (Optional) ---
+# Additional company list file - Excel with company names to auto-discover career APIs
+# company_list_file: "companies.xlsx"
+
+# Excel file containing already applied positions (to track and extract additional companies)
+# applied_positions_file: "applied_positions.xlsx"
+
+# --- Resume Files for Similarity Matching ---
+# Add your resume files here for job-resume matching
+resumes:
+  resume_1:
+    path: "resume_tech.docx"
+    description: "Technical/Engineering focus"
+  resume_2:
+    path: "resume_ds.docx"
+    description: "Data Science focus"
+
+# --- Job Title Keywords ---
+# Job must match at least one of these (case-insensitive)
+job_title_keywords:
+  - "Intern"
+  - "Co-op"
+  - "Internship"
+  - "Graduate"
+  - "Entry Level"
+
+# --- Specialty Keywords ---
+# Additional keywords to filter relevant positions
+specialty_keywords:
+  - "AI"
+  - "Artificial Intelligence"
+  - "Data Science"
+  - "Data Scientist"
+  - "Machine Learning"
+  - "ML Engineer"
+  - "Applied Science"
+  - "Software Engineer"
+  - "Research"
+  - "Analytics"
+  - "Data"
+  - "NLP"
+  - "Deep Learning"
+  - "LLM"
+
+# --- Companies Configuration ---
+# Pre-configured companies with their career page APIs
+companies:
+  # === FAANG / Big Tech ===
+  Alphabet:
+    name: "Google / Alphabet"
+    careers_url: "https://www.google.com/about/careers/applications/jobs/results"
+    api_url: "https://careers.google.com/api/v3/search/"
+
+  Amazon:
+    name: "Amazon"
+    careers_url: "https://www.amazon.jobs/en/search"
+    api_url: "https://www.amazon.jobs/en/search.json"
+
+  Apple:
+    name: "Apple"
+    careers_url: "https://jobs.apple.com/en-us/search"
+    api_url: "https://jobs.apple.com/api/role/search"
+
+  Meta:
+    name: "Meta Platforms"
+    careers_url: "https://www.metacareers.com/jobs"
+    api_url: "https://www.metacareers.com/graphql"
+
+  Microsoft:
+    name: "Microsoft"
+    careers_url: "https://careers.microsoft.com/us/en/search-results"
+    api_url: "https://gcsservices.careers.microsoft.com/search/api/v1/search"
+
+  Netflix:
+    name: "Netflix"
+    careers_url: "https://jobs.netflix.com/search"
+    api_url: "https://jobs.netflix.com/api/search"
+
+  # === AI / ML Companies ===
+  Nvidia:
+    name: "Nvidia"
+    careers_url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+    api_url: "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    type: "workday"
+
+  OpenAI:
+    name: "OpenAI"
+    careers_url: "https://openai.com/careers"
+    api_url: "https://boards.greenhouse.io/openai"
+    type: "greenhouse"
+
+  Anthropic:
+    name: "Anthropic"
+    careers_url: "https://www.anthropic.com/careers"
+    api_url: "https://boards.greenhouse.io/anthropic"
+    type: "greenhouse"
+
+  Databricks:
+    name: "Databricks"
+    careers_url: "https://www.databricks.com/company/careers"
+    api_url: "https://boards.greenhouse.io/databricks"
+    type: "greenhouse"
+
+  # === Cloud / Enterprise ===
+  Salesforce:
+    name: "Salesforce"
+    careers_url: "https://careers.salesforce.com"
+    api_url: "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
+    type: "workday"
+
+  ServiceNow:
+    name: "ServiceNow"
+    careers_url: "https://careers.servicenow.com"
+    api_url: "https://servicenow.wd1.myworkdayjobs.com/wday/cxs/servicenow/servicenow_careers/jobs"
+    type: "workday"
+
+  # === Fintech ===
+  Stripe:
+    name: "Stripe"
+    careers_url: "https://stripe.com/jobs"
+    api_url: "https://stripe.com/jobs/search"
+
+  Coinbase:
+    name: "Coinbase"
+    careers_url: "https://www.coinbase.com/careers"
+    api_url: "https://boards.greenhouse.io/coinbase"
+    type: "greenhouse"
+
+  Robinhood:
+    name: "Robinhood"
+    careers_url: "https://careers.robinhood.com"
+    api_url: "https://boards.greenhouse.io/robinhood"
+    type: "greenhouse"
+
+  # === Autonomous Vehicles ===
+  Tesla:
+    name: "Tesla"
+    careers_url: "https://www.tesla.com/careers/search"
+    api_url: "https://www.tesla.com/cua-api/apps/careers/state"
+
+  Waymo:
+    name: "Waymo"
+    careers_url: "https://waymo.com/careers"
+    api_url: "https://waymo.com/careers"
+
+  SpaceX:
+    name: "SpaceX"
+    careers_url: "https://www.spacex.com/careers"
+    api_url: "https://boards.greenhouse.io/spacex"
+    type: "greenhouse"
+
+  # === SaaS / Productivity ===
+  Notion:
+    name: "Notion"
+    careers_url: "https://www.notion.so/careers"
+    api_url: "https://boards.greenhouse.io/notion"
+    type: "greenhouse"
+
+  Figma:
+    name: "Figma"
+    careers_url: "https://www.figma.com/careers"
+    api_url: "https://boards.greenhouse.io/figma"
+    type: "greenhouse"
+
+  Dropbox:
+    name: "Dropbox"
+    careers_url: "https://www.dropbox.com/jobs"
+    api_url: "https://boards.greenhouse.io/dropbox"
+    type: "greenhouse"
+
+  MongoDB:
+    name: "MongoDB"
+    careers_url: "https://www.mongodb.com/careers"
+    api_url: "https://boards.greenhouse.io/mongodb"
+    type: "greenhouse"
+
+  Cloudflare:
+    name: "Cloudflare"
+    careers_url: "https://www.cloudflare.com/careers"
+    api_url: "https://boards.greenhouse.io/cloudflare"
+    type: "greenhouse"
+
+  # === Gaming ===
+  Roblox:
+    name: "Roblox"
+    careers_url: "https://careers.roblox.com"
+    api_url: "https://boards.greenhouse.io/roblox"
+    type: "greenhouse"
+
+  Epic:
+    name: "Epic Games"
+    careers_url: "https://www.epicgames.com/site/careers"
+    api_url: "https://boards.greenhouse.io/epicgames"
+    type: "greenhouse"
+
+  # === Healthcare Tech ===
+  Truveta:
+    name: "Truveta"
+    careers_url: "https://www.truveta.com/careers"
+    api_url: "https://boards.greenhouse.io/truveta"
+    type: "greenhouse"
+
+  # Add more companies as needed...
+  # Supported types: workday, greenhouse, lever, smartrecruiters
+
+# --- Similarity Settings ---
+similarity_threshold: 0.3
+
+# --- Output Settings ---
+output:
+  directory: "output"
+  filename_prefix: "job_matches"
+  include_similarity_score: true
+
+# --- Model Settings ---
+model:
+  name: "all-MiniLM-L6-v2"
+  use_docker: false
