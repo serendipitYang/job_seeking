@@ -7,7 +7,6 @@
 *.docx
 *.doc
 *.pdf
-!README.pdf
 
 # Personal data files (Chinese filenames)
 名单*.xlsx
@@ -90,5 +89,21 @@ models/
 *.temp
 .env
 .env.local
+fulltime.local.json
+applications.xlsx
+applications.xlsx.lock
+~$*.xlsx
+.env.*
+!.env.example
 secrets.yaml
 credentials.yaml
+
+over_my_reach.json
+over_my_reach.json.lock
+
+# Local assistant settings and arbitrary application workbooks
+.agents/
+.codex/
+.aws/
+*.xlsx
+*.xlsx.lock

@@ -11,6 +11,16 @@ Usage:
 
 import os
 import sys
+
+# Full-time is now the default. Preserve the historical Excel pipeline explicitly.
+if __name__ == "__main__" and "--legacy-internships" not in sys.argv:
+    from career import main as career_main
+    sys.argv.insert(1, "update")
+    career_main()
+    sys.exit(0)
+if "--legacy-internships" in sys.argv:
+    sys.argv.remove("--legacy-internships")
+
 import argparse
 import logging
 from datetime import datetime

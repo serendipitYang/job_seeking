@@ -1,0 +1,201 @@
+{
+  "resume": "resume.docx",
+  "preferences": {
+    "research_years_range": [
+      3,
+      5
+    ],
+    "graduation_date": null,
+    "earliest_start_date": null,
+    "locations": [],
+    "remote_preference": "unspecified",
+    "sponsorship_required": null,
+    "interests": [
+      "healthcare data science",
+      "clinical NLP",
+      "LLM",
+      "forecasting",
+      "applied machine learning",
+      "research scientist",
+      "model evaluation"
+    ],
+    "excluded_locations": []
+  },
+  "keywords": [
+    "data scien",
+    "machine learning",
+    "research scientist",
+    "applied scientist",
+    "artificial intelligence",
+    "informatics",
+    "biostatistic",
+    "computational",
+    "NLP",
+    "LLM",
+    "forecast",
+    "AI engineer"
+  ],
+  "llm": {
+    "model": "gpt-5.4-mini",
+    "search_model": "gpt-5.4-mini",
+    "max_scores_per_run": 64,
+    "max_searches_per_run": 16,
+    "max_output_tokens": 2200,
+    "search_max_output_tokens": 8000,
+    "nightly_budget_usd": 8
+  },
+  "collection": {
+    "max_pages": 20,
+    "max_jobs_per_company": 60,
+    "search_results_per_company": 12,
+    "apple_max_pages": 300,
+    "google_max_pages_per_query": 100
+  },
+  "companies": [
+    {
+      "name": "Apple",
+      "type": "apple",
+      "domains": [
+        "jobs.apple.com"
+      ]
+    },
+    {
+      "name": "Google",
+      "type": "google",
+      "domains": [
+        "google.com"
+      ],
+      "queries": [
+        "PhD New grad",
+        "AI",
+        "Data",
+        "Research Data Scientist",
+        "PhD",
+        "New grad"
+      ]
+    },
+    {
+      "name": "NVIDIA",
+      "type": "workday",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite",
+      "domains": [
+        "nvidia.wd5.myworkdayjobs.com",
+        "nvidia.com"
+      ]
+    },
+    {
+      "name": "Meta",
+      "type": "meta",
+      "domains": [
+        "metacareers.com"
+      ]
+    },
+    {
+      "name": "Genentech",
+      "type": "workday",
+      "url": "https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE",
+      "domains": [
+        "careers.gene.com",
+        "roche.wd3.myworkdayjobs.com"
+      ]
+    },
+    {
+      "name": "Johnson & Johnson",
+      "type": "search",
+      "domains": [
+        "careers.jnj.com"
+      ]
+    },
+    {
+      "name": "AbbVie",
+      "type": "smartrecruiters",
+      "url": "https://api.smartrecruiters.com/v1/companies/AbbVie/postings",
+      "domains": [
+        "careers.abbvie.com",
+        "jobs.smartrecruiters.com"
+      ]
+    },
+    {
+      "name": "Pfizer",
+      "type": "workday",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers",
+      "domains": [
+        "pfizer.wd1.myworkdayjobs.com",
+        "pfizer.com"
+      ]
+    },
+    {
+      "name": "Amgen",
+      "type": "workday",
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers",
+      "domains": [
+        "amgen.wd1.myworkdayjobs.com",
+        "careers.amgen.com"
+      ]
+    },
+    {
+      "name": "Gilead",
+      "type": "workday",
+      "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers",
+      "domains": [
+        "gilead.wd1.myworkdayjobs.com",
+        "gilead.com"
+      ]
+    },
+    {
+      "name": "Eli Lilly",
+      "type": "workday",
+      "url": "https://lilly.wd5.myworkdayjobs.com/LLY",
+      "domains": [
+        "lilly.wd5.myworkdayjobs.com",
+        "careers.lilly.com"
+      ]
+    },
+    {
+      "name": "Medtronic",
+      "type": "workday",
+      "url": "https://medtronic.wd1.myworkdayjobs.com/medtroniccareers",
+      "domains": [
+        "medtronic.wd1.myworkdayjobs.com",
+        "medtronic.com"
+      ]
+    },
+    {
+      "name": "Illumina",
+      "type": "workday",
+      "url": "https://illumina.wd1.myworkdayjobs.com/illumina-careers",
+      "domains": [
+        "illumina.wd1.myworkdayjobs.com",
+        "illumina.com"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "type": "microsoft",
+      "domains": [
+        "careers.microsoft.com",
+        "apply.careers.microsoft.com"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "type": "amazon",
+      "domains": [
+        "amazon.jobs"
+      ]
+    },
+    {
+      "name": "Tempus",
+      "type": "search",
+      "domains": [
+        "tempus.com",
+        "boards.greenhouse.io",
+        "job-boards.greenhouse.io"
+      ]
+    }
+  ],
+  "applications": {
+    "workbook": "applications.xlsx",
+    "sheet": "Applications"
+  }
+}

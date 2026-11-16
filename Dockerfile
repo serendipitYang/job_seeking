@@ -23,7 +23,8 @@ RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTr
 # Copy application code
 COPY src/ ./src/
 COPY run_job_search.py .
-COPY config.yaml .
+COPY career.py fulltime.example.json ./
+COPY dashboard/ ./dashboard/
 
 # Create output directory
 RUN mkdir -p output
